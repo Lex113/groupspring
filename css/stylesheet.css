@@ -1,0 +1,123 @@
+body { padding-top: 70px; 
+   
+}
+
+/*main-home page styling */
+
+#homebody {
+    padding-top: 0px;
+}
+
+#barbados {
+   background-image:url("../bpics/split.jpg");
+    background-size: 100% 100%;
+}
+
+#france {
+    background-color: lightblue;
+    background-image: url("../frimg/ParisFranceCityofLove.jpg");
+    background-size: 100% 100%;
+}
+
+#pr {
+    background-color: green;
+    background-image: url("../PRimg/MuseoPonce.jpg");
+    background-size: 100% 100%;
+}
+
+#fullheight {
+    height: 100vh;
+    text-align: center;
+}
+
+
+.transparent{
+    background: rgba(60, 63, 66, 0.1); 
+}
+
+.vertical {
+    width: 33%;
+    display: inline-block;
+    height: 100vh;
+    text-align: center;
+}
+
+
+/*individual location page styling */
+
+#prhero {
+ /* padding: 30px 15px;
+  margin-bottom: 30px; */
+  color: inherit;
+  background-color: #f9f9f9;
+  text-align: center;
+  background-size: cover;
+  background-image: url("../PRimg/seaandcoast.png");
+
+}
+
+ .carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     display: block;
+     margin:auto;
+     max-width: 100%;
+     height: 500px !important;
+ }
+
+#mainimage{
+    width:500px;
+    height:375px;
+}
+
+#hovergallery {
+/*    margin: auto; */
+    text-align: center;
+}
+
+
+#modalgallery {
+    text-align: center;
+}
+
+#prmap {
+    position: relative;
+    top: 600px;
+}
+
+.thumbnail {
+    width: 250px;
+    height: 180px;
+}
+
+
+.bjumbotron {
+      background-color: #00ffff;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+/*home-main page styling */
+
+    .vertical {
+        height: 50%;
+        width:  45%;
+                }
+
+    #pr {
+    background-image: url("../PRimg/PRbosqueseco.jpg");
+    background-size: 100% 100%;
+        }
+
+/*individual page styling */        
+        
+    #mainimage {
+        margin:auto;
+        padding-bottom: 20px
+                }
+                        
+
+}

@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Puerto Rico</title>
+<!-- Bootstrap using CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+<!--The next two tags are optional, and are needed only to support Internet Explorer 8 & 9-->
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Home</a>
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="barbados.html">Barbados</a></li>
+          <li><a href="france.html">France</a></li>
+          <li class="active"><a href="#">Puerto Rico <span class="sr-only">(current)</span></a></li>
+        </ul>
+  
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+  
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container-fluid">
+
+  <div class="jumbotron" id="prhero">
+    <h1>Puerto Rico!</h1>
+    <p>A beautiful adventure awaits</p>
+    <p><a href="#bienvenidos"  class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal">Bienvenidos</a></p>
+  </div>
+
+    <div class="modal fade" id="bienvenidos" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">Puerto Rico: La Isla del Encanto</h4>
+          </div>
+          <div class="modal-body">
+            <img src="PRimg/seaandcoast.jpg" width="50%" height="50%">
+          </div>
+          <div class="modal-footer">
+            <h5>Tropical rain and dry forests, bioluminescent bays, quaint old cities, beautiful architecture, and the "pork highway"</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="PRimg/prflagrock.jpg" alt="...">
+        <div class="carousel-caption">
+          ...
+        </div>
+      </div>
+      <div class="item">
+        <img src="PRimg/elfaro.jpg" alt="...">
+        <div class="carousel-caption">
+          ...
+        </div>
+      </div>
+      <div class="item">
+        <img src="PRimg/PRbeach.jpg" alt="...">
+        <div class="carousel-caption">
+          ...
+        </div>
+      </div>
+      <div class="item">
+        <img src="PRimg/sanjuanoldtown.jpg" alt="...">
+        <div class="carousel-caption">
+          ...
+        </div>
+      </div>
+      <div class="item">
+        <img src="PRimg/SanCristobal.jpg" alt="...">
+        <div class="carousel-caption">
+          ...
+        </div>
+      </div>
+      <div class="item">
+        <img src="PRimg/PRcriollo.jpg" alt="...">
+        <div class="carousel-caption">
+          ...
+        </div>
+      </div>
+      
+      ...
+    </div>
+  
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<!-- photo gallery of 4 images with modals-->
+    <section id="modalgallery">
+    <h2>Food, Culture, Environment, History: Puerto Rico Has It All</h2>
+    <a href="#food" class="btn btn-default" role="button" data-toggle="modal">
+      <img class="media-object img-responsive thumbnail" src="PRimg/PRcriollo.jpg" alt="...">
+    </a>
+    <a href="#culture" class="btn btn-default" role="button" data-toggle="modal">
+      <img class="media-object img-responsive thumbnail" src="PRimg/MuseoPonce2.jpg" alt="...">
+    </a>
+    <a href="#environment" class="btn btn-default" role="button" data-toggle="modal">
+      <img class="media-object img-responsive thumbnail" src="PRimg/PRcave.jpg" alt="...">
+    </a>
+    <a href="#history" class="btn btn-default" role="button" data-toggle="modal">
+      <img class="media-object img-responsive thumbnail" src="PRimg/cobblestone.jpg" alt="...">
+    </a>
+  
+    <div class="modal fade" id="food" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">Food</h4>
+          </div>
+          <div class="modal-body">
+            <img src="PRimg/PRguac.jpg" width="50%" height="50%">
+          </div>
+          <div class="modal-footer">
+            <h5>Cocina criolla</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="culture" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">Culture</h4>
+          </div>
+          <div class="modal-body">
+            <img src="PRimg/MuseoPonce.jpg" width="50%" height="50%">
+          </div>
+          <div class="modal-footer">
+            <h5>Museo de Arte de Ponce, Parque de Bombas, Hacienda Buena Vista y Museo de la Musica Puertorriquena</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="environment" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">Environment</h4>
+          </div>
+          <div class="modal-body">
+            <img src="PRimg/palmtrees.jpg" width="50%" height="50%">
+          </div>
+          <div class="modal-footer">
+            <h5>El Yunque National Forest, El Bosque Seco de Guanica, La Parguera y Cavernas del Rio Camuy</h5>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="modal fade" id="history" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">History</h4>
+          </div>
+          <div class="modal-body">
+            <img src="PRimg/sentinel.jpg" width="50%" height="50%">
+          </div>
+          <div class="modal-footer">
+            <h5>Taino Village, El Morro y San Cristobal, El Viejo San Juan </h5>
+  <!-- popover seems to have disabled the modal . . . 
+            <button type="button" class="btn btn-lg btn-primary" data-toggle="popover" data-placement="top" 
+                    title="Popover title" data-content="X Museum, Y Cinemas, Galleria Mall, Shopping Plaza>Entertainment
+            </button> -->
+          </div>
+        </div>
+      </div>
+    </div> 
+  </section>
+  
+<!-- photo gallery of 4 images car hover thing -->
+    <section id="hovergallery">
+      <h2>Explore the Sights and Sounds of Puerto Rico</h2>
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <a href="#">
+            <img id="mainimage" src="PRimg/iguana.jpg" alt="...">
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="PRimg/iguana.jpg" alt="...">
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="PRimg/landscape.jpg" alt="...">
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="PRimg/elfaro.jpg" alt="...">
+          </a>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <a href="#" class="thumbnail">
+            <img src="PRimg/PRcave.jpg" alt="...">
+           </a>           
+        </div>
+      </div>          
+  </section>
+
+  </div>
+
+    
+    
+<!--DO NOT TYPE BELOW HERE-->    
+<!--The following is normally placed at the end of your body and are used for Bootstraps jQuery and javaScript   
+    plugins.  They are placed at the end of your body for faster loading of your html document.-->
+<!-- jQuery library: version 1 is for older browsers, version 2 is for newer browsers --> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>    
+<!--to write inside a html document-->
+    <script></script>
+<!--link to external document, remember type is optional-->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
